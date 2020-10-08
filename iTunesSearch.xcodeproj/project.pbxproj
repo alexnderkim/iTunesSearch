@@ -8,16 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		DC2CF525252F47D2009825EF /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2CF524252F47D2009825EF /* SearchResult.swift */; };
+		DC2CF540252F5237009825EF /* SearchResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC2CF53F252F5237009825EF /* SearchResultCell.xib */; };
+		DC2CF548252F6AFF009825EF /* SearchResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2CF547252F6AFF009825EF /* SearchResultCell.swift */; };
 		DCC9A75E252DC17100A99202 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC9A75D252DC17100A99202 /* AppDelegate.swift */; };
 		DCC9A760252DC17100A99202 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC9A75F252DC17100A99202 /* SceneDelegate.swift */; };
 		DCC9A762252DC17100A99202 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC9A761252DC17100A99202 /* SearchViewController.swift */; };
 		DCC9A765252DC17100A99202 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCC9A763252DC17100A99202 /* Main.storyboard */; };
 		DCC9A767252DC17200A99202 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC9A766252DC17200A99202 /* Assets.xcassets */; };
 		DCC9A76A252DC17200A99202 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCC9A768252DC17200A99202 /* LaunchScreen.storyboard */; };
+		DCF82DF1252F778B0022E8F4 /* NothingFoundCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCF82DF0252F778B0022E8F4 /* NothingFoundCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DC2CF524252F47D2009825EF /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
+		DC2CF53F252F5237009825EF /* SearchResultCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchResultCell.xib; sourceTree = "<group>"; };
+		DC2CF547252F6AFF009825EF /* SearchResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultCell.swift; sourceTree = "<group>"; };
 		DCC9A75A252DC17100A99202 /* iTunesSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTunesSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCC9A75D252DC17100A99202 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCC9A75F252DC17100A99202 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +31,7 @@
 		DCC9A766252DC17200A99202 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCC9A769252DC17200A99202 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCC9A76B252DC17200A99202 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCF82DF0252F778B0022E8F4 /* NothingFoundCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NothingFoundCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +56,9 @@
 		DC75061E252E51FF00533071 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				DCF82DF0252F778B0022E8F4 /* NothingFoundCell.xib */,
 				DCC9A763252DC17100A99202 /* Main.storyboard */,
+				DC2CF53F252F5237009825EF /* SearchResultCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -58,6 +66,7 @@
 		DC750620252E522400533071 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				DC2CF547252F6AFF009825EF /* SearchResultCell.swift */,
 				DCC9A761252DC17100A99202 /* SearchViewController.swift */,
 			);
 			path = Controllers;
@@ -153,6 +162,8 @@
 			files = (
 				DCC9A76A252DC17200A99202 /* LaunchScreen.storyboard in Resources */,
 				DCC9A767252DC17200A99202 /* Assets.xcassets in Resources */,
+				DC2CF540252F5237009825EF /* SearchResultCell.xib in Resources */,
+				DCF82DF1252F778B0022E8F4 /* NothingFoundCell.xib in Resources */,
 				DCC9A765252DC17100A99202 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -168,6 +179,7 @@
 				DCC9A75E252DC17100A99202 /* AppDelegate.swift in Sources */,
 				DC2CF525252F47D2009825EF /* SearchResult.swift in Sources */,
 				DCC9A760252DC17100A99202 /* SceneDelegate.swift in Sources */,
+				DC2CF548252F6AFF009825EF /* SearchResultCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

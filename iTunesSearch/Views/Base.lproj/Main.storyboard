@@ -36,10 +36,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="EaL-0e-qXx" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="S72-KQ-DAH"/>
-                            <constraint firstItem="EaL-0e-qXx" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="TvQ-w6-77Z"/>
-                            <constraint firstAttribute="bottom" secondItem="EaL-0e-qXx" secondAttribute="bottom" id="jrB-m9-EWC"/>
-                            <constraint firstItem="EaL-0e-qXx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="kke-zF-D7D"/>
+                            <constraint firstItem="EaL-0e-qXx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="KRx-3E-lgt"/>
+                            <constraint firstItem="EaL-0e-qXx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="XhB-4I-QD0"/>
+                            <constraint firstItem="EaL-0e-qXx" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="jW1-mg-vWn"/>
+                            <constraint firstItem="EaL-0e-qXx" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="nRW-sx-gfw"/>
                         </constraints>
                     </view>
                     <connections>
