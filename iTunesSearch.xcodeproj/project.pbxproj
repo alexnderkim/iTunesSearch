@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC2CF525252F47D2009825EF /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2CF524252F47D2009825EF /* SearchResult.swift */; };
 		DCC9A75E252DC17100A99202 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC9A75D252DC17100A99202 /* AppDelegate.swift */; };
 		DCC9A760252DC17100A99202 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC9A75F252DC17100A99202 /* SceneDelegate.swift */; };
 		DCC9A762252DC17100A99202 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC9A761252DC17100A99202 /* SearchViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DC2CF524252F47D2009825EF /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
 		DCC9A75A252DC17100A99202 /* iTunesSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTunesSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCC9A75D252DC17100A99202 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCC9A75F252DC17100A99202 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DC2CF527252F47D9009825EF /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				DC2CF524252F47D2009825EF /* SearchResult.swift */,
+			);
+			path = "Data Model";
+			sourceTree = "<group>";
+		};
 		DC75061E252E51FF00533071 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +84,7 @@
 			children = (
 				DCC9A75D252DC17100A99202 /* AppDelegate.swift */,
 				DCC9A75F252DC17100A99202 /* SceneDelegate.swift */,
+				DC2CF527252F47D9009825EF /* Data Model */,
 				DC750620252E522400533071 /* Controllers */,
 				DC75061E252E51FF00533071 /* Views */,
 				DCC9A766252DC17200A99202 /* Assets.xcassets */,
@@ -155,6 +166,7 @@
 			files = (
 				DCC9A762252DC17100A99202 /* SearchViewController.swift in Sources */,
 				DCC9A75E252DC17100A99202 /* AppDelegate.swift in Sources */,
+				DC2CF525252F47D2009825EF /* SearchResult.swift in Sources */,
 				DCC9A760252DC17100A99202 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
